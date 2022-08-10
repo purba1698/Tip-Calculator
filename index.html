@@ -1,0 +1,67 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tip Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com"  crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?  family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+  <div class="logo">
+    <img src="images/logo.svg">
+  </div>
+  <div class="tip-calc">
+    <div class="part-one">
+    <label>Bill</label>
+    <input type="number" id="bill-input" class="input bill-input">
+
+    <div class="tiplabel"><label for="tip">Select Tip %</label></div>
+    
+    <div class="tip">
+      <div class=" tips tip-5"> 5%</div>
+      <div class=" tips tip-10"> 10%</div>
+      <div class=" tips active-tip tip-15" > 15%</div>
+      <div class=" tips tip-20"> 25%</div>
+      <div class=" tips tip-25"> 50%</div>
+      <div id="tip-custom"><input class="tip-custom" type="number" placeholder="CUSTOM"> </div>
+    </div>
+
+    <div class="people">
+      <label for="">Number Of People</label>
+      <label for="" class="error">Can't be zero</label>
+    </div>
+    <input type="number" class="input people-input">
+  </div>
+
+  <div class="result">
+    <div class="tip-amount">
+      <div class="text">
+        <p>Tip Amount</p>
+        <p class="person">/ person</p>
+      </div>
+      <div class="amount" id="tip-amount">$4.27</div>
+    </div>
+
+    <div class="Total">
+      <div class="text">
+        <p>Total</p>
+        <p class="person">/ person</p>
+      </div>
+      <div class="amount" id="total-amount">$32.79</div>
+    </div>
+    
+    <div class="reset">RESET</div>
+    
+  </div>
+  </div>
+<script  src="script.js"></script>
+</body>
+
+
+ 
+
+
+
+  
