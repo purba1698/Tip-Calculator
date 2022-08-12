@@ -1,1 +1,1 @@
-http://purrba1698.github.io/Tip-Calculator
+http://purba1698.github.io/Tip-Calculator
